@@ -40,6 +40,7 @@ def send_batch_message(sender):
 # create a Service Bus client using the connection string
 servicebus_client = ServiceBusClient.from_connection_string(
     conn_str=CONNECTION_STR, logging_enable=True)
+
 with servicebus_client:
     # get a Queue Sender object to send messages to the queue
     sender = servicebus_client.get_queue_sender(queue_name=QUEUE_NAME)
