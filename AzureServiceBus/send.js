@@ -7,16 +7,16 @@ const connectionString = "Endpoint=sb://servicebus1zhuoran.servicebus.chinacloud
 const queueName = "queuetest"
 
 const messages = [
-  { body: "Albert Einstein" },
-  { body: "Werner Heisenberg" },
-  { body: "Marie Curie" },
-  { body: "Steven Hawking" },
-  { body: "Isaac Newton" },
-  { body: "Niels Bohr" },
-  { body: "Michael Faraday" },
-  { body: "Galileo Galilei" },
-  { body: "Johannes Kepler" },
-  { body: "Nikolaus Kopernikus" }
+  { body: "1Albert Einstein" },
+  { body: "2Werner Heisenberg" },
+  { body: "3Marie Curie" },
+  { body: "4Steven Hawking" },
+  { body: "5Isaac Newton" },
+  { body: "6Niels Bohr" },
+  { body: "7Michael Faraday" },
+  { body: "8Galileo Galilei" },
+  { body: "9Johannes Kepler" },
+  { body: "10Nikolaus Kopernikus" }
 ];
 
 async function main() {

@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "@azure/service-bus": "^7.6.0"
+    "@azure/event-hubs": "^5.8.0",
+    "@azure/eventhubs-checkpointstore-blob": "^1.0.1",
+    "@azure/service-bus": "^7.6.0",
+    "@azure/storage-blob": "^12.11.0"
   }
 }
