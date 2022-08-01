@@ -1,7 +1,7 @@
 const { delay, ServiceBusClient, ServiceBusMessage } = require("@azure/service-bus");
 
 // connection string to your Service Bus namespace
-const connectionString = "Endpoint=sb://servicebus1zhuoran.servicebus.chinacloudapi.cn/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Cu+DOOOh4CSzFzXtfBSFDX/kQcL1XuAWkNdpHVhUWZg="
+const connectionString = ""
 
 // name of the queue
 const queueName = "queuetest"

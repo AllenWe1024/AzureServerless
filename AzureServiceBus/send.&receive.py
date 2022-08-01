@@ -1,6 +1,6 @@
 from azure.servicebus import ServiceBusClient, ServiceBusMessage
 
-CONNECTION_STR = "Endpoint=sb://servicebus1zhuoran.servicebus.chinacloudapi.cn/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Cu+DOOOh4CSzFzXtfBSFDX/kQcL1XuAWkNdpHVhUWZg="
+CONNECTION_STR = ""
 QUEUE_NAME = "queuetest"
 
 

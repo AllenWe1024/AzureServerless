@@ -1,6 +1,6 @@
 const { EventHubProducerClient } = require("@azure/event-hubs");
 
-const connectionString = "Endpoint=sb://eventhubzhuoran.servicebus.chinacloudapi.cn/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=oQVE/4/V6Tr+f1EqA9t+OF7mGl63cKBnhXteofqpydA=";
+const connectionString = "";
 const eventHubName = "testhub";
 
 async function main() {

@@ -2,10 +2,10 @@ const { EventHubConsumerClient, earliestEventPosition } = require("@azure/event-
 const { ContainerClient } = require("@azure/storage-blob");
 const { BlobCheckpointStore } = require("@azure/eventhubs-checkpointstore-blob");
 
-const connectionString = "Endpoint=sb://eventhubzhuoran.servicebus.chinacloudapi.cn/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=oQVE/4/V6Tr+f1EqA9t+OF7mGl63cKBnhXteofqpydA=";
+const connectionString = "";
 const eventHubName = "testhub";
 const consumerGroup = "$Default"; // name of the default consumer group
-const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=zhuoranstorage;AccountKey=7UWJ1NjpISA0Nsf10tjI3919dzeVzEJRV9RRmPSle47W89D+TIOYtPB2TuifWFdoGCrf5zPd+ml0+AStOVLQug==;EndpointSuffix=core.chinacloudapi.cn";
+const storageConnectionString = "";
 const containerName = "servicetest";
 
 async function main() {
